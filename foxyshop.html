@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="foxyshop.css">
+        <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+            <script src="https://unpkg.com/unlazy@0.11.3/dist/unlazy.with-hashing.iife.js" defer init></script>
+      </head>
+      <body>
+    <div class="bg-background text-primary-foreground">
+      <header class="flex justify-between items-center p-4">
+        <img src="./logos/logo.jpg" alt="FoxyShop Logo" class="logo" />
+        <nav>
+          <ul class="flex space-x-4">
+            <li><a href="foxyshop.html" class="hover:text-primary button" style="color: hsl(var(--primary));" >მთავარი</a></li>
+            <li><a href="#" class="hover:text-primary button">პროდუქცია</a></li>
+            <li><a href="About.html" class="hover:text-primary button">ჩვენს შესახებ</a></li>
+            <li><a href="contact.html" class="hover:text-primary button">საკონტაქტო</a></li>
+          </ul>
+        </nav>
+      </header>
+    
+      <section class="bg-primary text-primary-foreground py-16 px-4 text-center">
+        <h1 class="text-4xl font-bold mb-4">დაპრინტე რაც გინდა 🦊</h1>
+        <p class="mb-8">ატარე სიყვარული, ატარე <b>FOXY!</b></p>
+      </section>
+    
+      <section class="py-16 px-4">
+        <h2 class="text-2xl font-bold mb-8 button">გამორჩეული პროდუქცია:</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div class="bg-card text-card-foreground rounded-lg overflow-hidden shadow-lg">
+            <img src="./protucts/maisurebi.jpg" alt="maisurebi" class="w-full" />
+            <div class="p-4">
+              <h3 class="font-bold text-lg mb-2"> საქართველო სულ ჩვენთან</h3>
+              <p class="text-sm mb-4">დამზადებულია საქართველოს სიყვარულით</p>
+              <p class="price">** ₾არი</p>
+            <a href="contact.html"><button class="bg-primary text-primary-foreground hover:bg-primary/80 py-2 px-4 rounded-lg">შეკვეთა 🛍</button></a>
+            </div>
+          </div>
+          
+          <div class="bg-card text-card-foreground rounded-lg overflow-hidden shadow-lg">
+            <img src="./protucts/balishi.jpg" alt="Product 2" class="w-full" />
+            <div class="p-4">
+              <h3 class="font-bold text-lg mb-2">მისტერ და მისის სმიტები</h3>
+              <p class="text-sm mb-4">დამზადებულია საქართველოს სიყვარულით</p>
+              <p class="price">** ₾არი</p>
+              <a href="contact.html"><button class="bg-primary text-primary-foreground hover:bg-primary/80 py-2 px-4 rounded-lg">შეკვეთა 🛍</button></a>
+            </div>
+          </div>
+          
+          <div class="bg-card text-card-foreground rounded-lg overflow-hidden shadow-lg">
+            <img src="./protucts/chanta.jpg" alt="Product 3" class="w-full" />
+            <div class="p-4">
+              <h3 class="font-bold text-lg mb-2">Product 3</h3>
+              <p class="text-sm mb-4">დამზადებულია საქართველოს სიყვარულით</p>
+              <p class="price">** ₾არი</p>
+              <a href="contact.html"><button class="bg-primary text-primary-foreground hover:bg-primary/80 py-2 px-4 rounded-lg">შეკვეთა 🛍</button></a>
+            </div>
+          </div>
+
+          <div class="bg-card text-card-foreground rounded-lg overflow-hidden shadow-lg">
+            <img src="./protucts/winsafari.jpg" alt="Product 3" class="w-full" />
+            <div class="p-4">
+              <h3 class="font-bold text-lg mb-2">წინსაფარი</h3>
+              <p class="text-sm mb-4">დამზადებულია საქართველოს სიყვარულით</p>
+              <p class="price">** ₾არი</p>
+              <a href="contact.html"><button class="bg-primary text-primary-foreground hover:bg-primary/80 py-2 px-4 rounded-lg">შეკვეთა 🛍</button></a>
+            </div>
+          </div>
+
+          <div class="bg-card text-card-foreground rounded-lg overflow-hidden shadow-lg">
+            <img src="./protucts/kepi.jpg" alt="Product 3" class="w-full" />
+            <div class="p-4">
+              <h3 class="font-bold text-lg mb-2">კეპი</h3>
+              <p class="text-sm mb-4">დამზადებულია საქართველოს სიყვარულით</p>
+              <p class="price">** ₾არი</p>
+              <a href="contact.html"><button class="bg-primary text-primary-foreground hover:bg-primary/80 py-2 px-4 rounded-lg">შეკვეთა 🛍</button></a>
+            </div>
+          </div>
+
+          <div class="bg-card text-card-foreground rounded-lg overflow-hidden shadow-lg">
+            <img src="./protucts/chanta.jpg" alt="Product 3" class="w-full" />
+            <div class="p-4">
+              <h3 class="font-bold text-lg mb-2">Product 3</h3>
+              <p class="text-sm mb-4">დამზადებულია საქართველოს სიყვარულით</p>
+              <p class="price">** ₾არი</p>
+              <a href="contact.html"><button class="bg-primary text-primary-foreground hover:bg-primary/80 py-2 px-4 rounded-lg">შეკვეთა 🛍</button></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+      <footer class="bg-primary text-primary-foreground py-4 px-4 text-center">
+        <p>&copy; 2024 FoxyShop. All Rights Reserved.</p>
+      </footer>
+    </div>
+    
+    <script src="script1.js"></script>
+      </body>
+</html>
